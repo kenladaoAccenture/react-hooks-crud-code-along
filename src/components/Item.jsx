@@ -8,6 +8,7 @@ function Item({ item }) {
       <button className={item.isInCart ? "remove" : "add"}>
         {item.isInCart ? "Remove From" : "Add to"} Cart
       </button>
+      <button>Delete</button>
     </li>
   );
 }
